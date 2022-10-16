@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/vintage-car.png" type="image/x-icon">
+
+  </head>
+  <body>
+
+     <!-- Home Page -->
+
+     <div class="cont">
+        <nav>
+            <div class="logo">Vintage Cars</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            
+            </label>
+            <ul>
+              <li><a  href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="Q&A.html">Q & A</a></li>
+              <li><a href="driver.html">Drivers</a></li>
+              <li><a class="active" href="contact.html">Contact Us</a></li>
+              <li><a href="register.html">Register </a></li>
+       
+            </ul>
+          </nav>
+
+    <form action="https://formspree.io/f/moqblqnq" method="POST">
+      <div class="title">
+        <h2>CONTACT US </h2>
+      </div>
+      <div class="half">
+        <div class="item">
+          <!-- <label for="name"> FIRST NAME</label> -->
+          <input type="text" name="First Name"  placeholder="First name" id = "name">
+        </div>
+        <div class="item">
+          <!-- <label for="email">LAST NAME</label> -->
+          <input type="text" name="Last name"  placeholder=" Last name" id = "email">
+        </div>
+      </div>
+      <div class="full">
+        <label>Select Country</label>
+        <select id="country" name="country">
+          <option>select country</option>
+          
+          <option>Kenya</option>
+          <option>Uganda</option>
+          <option>Tanzania</option>
+          <option>Burundi</option>
+          <option>Rwanda</option>
+      </select>
+      </div>
+      <div class="action">
+        <input type="submit" value = "SEND MESSAGE">
+      </div>
+    
+    </form>
+
+    <!--Footer-->
+      <div class="footer-basic">
+        <footer>
+        <p class="copyright">Vintage cars © 2022</p>
+        </footer>
+    </div>
+  </div>
+  </body>
+</html>

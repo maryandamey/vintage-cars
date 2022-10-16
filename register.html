@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/vintage-car.png" type="image/x-icon">
+
+</head>
+<body>
+  <!--Nav bar -->
+  <div class="reg">
+    <nav>
+        <div class="logo"> Vintage Cars</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        
+        </label>
+        <ul>
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="Q&A.html">Q & A</a></li>
+          <li><a href="driver.html">Drivers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a  class="active" href="register.html">Register </a></li>
+        </ul>
+      </nav>
+
+<form action="https://formspree.io/f/xgeqzelv" method="POST">
+<div class="wrapper">
+    <div class="title">
+      Booking  Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <!-- <label>First Name</label> -->
+          <input type="text" name="First Name" placeholder="First Name" class="input">
+       </div>  
+        <div class="inputfield">
+          <!-- <label>Last Name</label> -->
+          <input type="text"   name="Last Name" placeholder="Last Name" class="input">
+       </div>  
+       <!-- <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input">
+       </div>  -->
+       <div class="inputfield">
+        <label>Select your rally </label>
+        <div class="custom_select">
+          <select  name="rally" >
+            <option>Select</option>
+            <option>Offroad</option>
+            <option>Road Rally </option>
+            <option>Touring assembly</option>         
+          </select>
+        </div>
+     </div> 
+        <div class="inputfield">
+          <label>Select your country</label>
+          <div class="custom_select">
+            <select name="country">
+              <option>Select</option>
+              <option>Kenya</option>
+              <option>Uganda</option>
+              <option>Tanzania</option>
+              <option>Burundi</option>
+              <option>Rwanda</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text"  name="Email Address" placeholder="Email Address" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" name="Phone Number" placeholder="Phone Number" class="input">
+       </div> 
+    
+      <div class="inputfield terms">
+         
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Book" class="btn">
+        <!-- <p >Have an account? <a href="Login.html">Log in</a></p> -->
+
+      </div>
+    </div>
+</div>	
+</form>
+<div class="footer-basic">
+  <footer>
+  <p class="copyright">Vintage cars © 2022</p>
+  </footer>
+</div>	
+</div>
+</body>
+</html>
